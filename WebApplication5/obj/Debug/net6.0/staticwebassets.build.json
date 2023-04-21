@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "mgtCe1lzcsY8WykCOsX9Yj/MAKE6jkE/fSH6JN8XtgM=",
+  "Source": "WebApplication5",
+  "BasePath": "_content/WebApplication5",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "WebApplication5\\wwwroot",
+      "Source": "WebApplication5",
+      "ContentRoot": "C:\\Users\\St.xavier's college\\Desktop\\WebApplication5\\WebApplication5\\wwwroot\\",
+      "BasePath": "_content/WebApplication5",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\St.xavier's college\\Desktop\\WebApplication5\\WebApplication5\\wwwroot\\css\\StyleSheet.css",
+      "SourceId": "WebApplication5",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\St.xavier's college\\Desktop\\WebApplication5\\WebApplication5\\wwwroot\\",
+      "BasePath": "_content/WebApplication5",
+      "RelativePath": "css/StyleSheet.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\StyleSheet.css"
+    }
+  ]
+}
