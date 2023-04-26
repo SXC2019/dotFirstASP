@@ -2,6 +2,7 @@
 
 namespace WebApplication5.Controllers
 {
+  
     public class HomeController : Controller
     {
         public IActionResult Index()
@@ -9,11 +10,13 @@ namespace WebApplication5.Controllers
             return View();
         }
 
+        [Route("Mero/con")]
         public IActionResult Contact()
         {
             return View();
         }
 
+        [Route("Mero/abt")]
         public IActionResult AboutUs()
         {
             return View("About");
@@ -21,8 +24,8 @@ namespace WebApplication5.Controllers
 
         public IActionResult Add()
         {
-            int a = 3, b = 0, c;
-            c = a / b;
+            
+            
 
             string fname = Request.Query["txtFirst"];
             string lname = Request.Query["txtSecond"];

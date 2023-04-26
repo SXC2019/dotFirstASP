@@ -1,0 +1,10 @@
+﻿
+@model RegisterModel
+
+<form method="post" asp-action="Register" asp-controller="Account">
+    <div asp-validation-summary="All"></div>
+    <input asp-for="Email"/>
+    <input asp-for="Password"/>
+    <input asp-for="ConfirmPassword" />
+    <button type="submit">Register</button>
+</form>
