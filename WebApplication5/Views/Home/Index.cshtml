@@ -1,9 +1,9 @@
-﻿
-
+﻿@using WebApplication5.Models;
+@model ModelStuudent
 <div class="container">
-  <form method="get" asp-controller="Home" asp-action="Add">
-      <input type="text"  name="txtFirst" />
-        <input type="text" name="txtSecond" />
+  <form method="post" asp-controller="Home" asp-action="Index">
+      <input asp-for="Roll"/>
+        <input asp-for="FirstName"/>
         <button type="submit" class="btn btn-primary" >Add </button>
   </form>
 </div>
